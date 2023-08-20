@@ -154,7 +154,7 @@ char buffer[],
 int flags, int width, int precision, int size);
 
 
-/**** UTILS  functions ***/
+/*** UTILS  function ***/
 
 int append_hexa_code(char, char[], int);
 int is_printable(char);
