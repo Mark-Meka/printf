@@ -5,7 +5,7 @@
  * @m: An argument list will be printed.
  * @list: arg list
  *
- * Return: width.
+ * Return: width
  */
 int get_width(const char *format, int *m, va_list list)
 {
