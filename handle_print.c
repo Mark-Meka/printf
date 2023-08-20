@@ -3,7 +3,7 @@
 
 /**
  * handle_print - Depending on the argument's type, prints it
- * @prnt: Formatted string in which to print the arguments.
+ * @prnt: Formtted string in which to print the arguments.
  * @list: List of arguments to be printed.
  * @ind: ind.
  * @buffer: An array of buffers to handle printing.
