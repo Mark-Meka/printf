@@ -20,8 +20,8 @@ return (0);
 
 }
 /**
- * append_hexa_code - Append ascci in hexadecimal code to buffer
- * @buffer: Array of chars.
+ * append_hexa_code - Concatenate ASCII in hexadecimal format to the buffer.
+ * @buffer: Sequence of characters.
  * @i: Index at which to start appending.
  * @ascii_code: ASSCI CODE.
  * Return: Always 3
@@ -47,10 +47,10 @@ return (3);
 
 
 /**
- * is_digit - Checks whether a character is a digit.
- * @c: Char is assest
+ * is_digit - Verify if char is number.
+ * @c: assest is char
  *
- * Return: 1 if c is a digit, 0 otherwise
+ * Return: 1 if c is no, 0 otherwise
  */
 int is_digit(char c)
 {
@@ -70,7 +70,7 @@ return (0);
  * @num: Number to printing
  * @size: Value that specifies the type for casting.
  *
- * Return: Casted value of num
+ * Return: Cast the number
  */
 
 long int convert_size_number(long int num, int size)
@@ -86,9 +86,9 @@ return ((int)num);
 /**
  * convert_size_unsgnd - Converts a number to the designated size.
  * @num: Number to displayed
- * @size: Number indicating the type to dysplayed
+ * @size: Number indicating the type to displayed
  *
- * Return: Casted value of num
+ * Return: Cast the number
  */
 long int convert_size_unsgnd(unsigned long int num, int size)
 {
