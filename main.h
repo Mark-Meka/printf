@@ -20,32 +20,32 @@
 #define S_LONG 2
 
 /**
- * struct prnt - Struct op
+ * struct fmt - Struct op
  *
- * @prnt: The format.
+ * @fmt: The format.
  * @fn: The function associated.
  */
-struct prnt
+struct fmt
 {
-	char prnt;
+	char fmt;
 	int (*fn)(va_list, char[], int, int, int, int);
 };
 
 
 /**
- * typedef struct prnt prnt_t - Struct op
+ * typedef struct fmt fmt_t - Struct op
  *
- * @prnt: The format.
+ * @fmt: The format.
  * @fm_t: The function associated.
  */
-typedef struct prnt prnt_t;
+typedef struct fmt fmt_t;
 
-int handle_print(const char *prnt, int *i,
+int handle_print(const char *fmt, int *i,
 va_list list, char buffer[], int flags, int width, int precision, int size);
 
 int _printf(const char *format, ...);
 
-/*** FUNCTIONS of prnt f ***/
+/*** FUNCTIONS of fmt f ***/
 
 /* Functions to print numbers */
 int print_int(va_list types, char buffer[],
