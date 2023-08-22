@@ -1,16 +1,16 @@
 #include "main.h"
 
-/************************* WRITE HANDLE *************************/
+/** write handlers c **/
 /**
- * handle_write_char - Prints a string
- * @c: char types.
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags.
- * @width: get width.
- * @precision: precision specifier
- * @size: Size specifier
+ * handle_write_char - string printing
+ * @c: types of the charc
+ * @buffer: Array for managing printing in a buffer.
+ * @flags: summasion of the flags
+ * @width: know the width
+ * @precision: precision spec
+ * @size: Size spec
  *
- * Return: Number of chars printed.
+ * Return: printed char numbers
  */
 int handle_write_char(char c, char buffer[],
 	int flags, int width, int precision, int size)
@@ -44,18 +44,18 @@ int handle_write_char(char c, char buffer[],
 	return (write(1, &buffer[0], 1));
 }
 
-/************************* WRITE NUMBER *************************/
+/*** write the numbers ***/
 /**
- * write_number - Prints a string
- * @is_negative: Lista of arguments
- * @ind: char types.
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
- * @width: get width.
- * @precision: precision specifier
- * @size: Size specifier
+ * write_number - Printing string
+ * @is_negative: arg list
+ * @ind: char solution.
+ * @buffer: array buffering
+ * @flags:  add the active flags
+ * @width: knowing the width.
+ * @precision: precision specs
+ * @size: Size spec
  *
- * Return: Number of chars printed.
+ * Return: chars printed no.
  */
 int write_number(int is_negative, int ind, char buffer[],
 	int flags, int width, int precision, int size)
@@ -79,7 +79,7 @@ int write_number(int is_negative, int ind, char buffer[],
 }
 
 /**
- * write_num - Write a number using a bufffer
+ * write_num - Compose a number using a buffer.
  * @ind: Index at which the number starts on the buffer
  * @buffer: Buffer
  * @flags: Flags
