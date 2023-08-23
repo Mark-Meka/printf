@@ -88,7 +88,7 @@ return ((int)num);
  * @num: Number to displayed
  * @size: Number indicating the type to displayed
  *
- * Return: Cast the number
+ * Return: Casts the number
  */
 long int convert_size_unsgnd(unsigned long int num, int size)
 {
