@@ -1,1 +1,1 @@
-0x11C-Printf team PROJECT
+0x11C-Printf team PROJECt
