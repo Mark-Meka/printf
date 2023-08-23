@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*** PRINT POINTER ***/
+/** PRINT POINTER **/
 /**
  * print_pointer - printing pointer pt variable
  * @types: lst the arg

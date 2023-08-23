@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*** char printing ***/
+/** char printing **/
 
 /**
  * print_char - char printing
@@ -19,7 +19,7 @@ int print_char(va_list types, char buffer[],
 
 	return (handle_write_char(cha, buffer, flags, width, precision, size));
 }
-/*** printing the string ***/
+/** printing the string **/
 /**
  * print_string - print string
  * @types: list args ls
